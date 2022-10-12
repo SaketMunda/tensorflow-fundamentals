@@ -27,7 +27,7 @@ Rather than building machine learning models from scratch and train which requir
 
 **GPU**, Graphical Processing Unit, usually we use it for our personal computers to enhance the graphical interface of our CPUs and support high end softwares which requires high graphics.
 
-![image](https://user-images.githubusercontent.com/29537875/195336861-18fa9021-39f1-4348-bfbb-cd6cc08c130a.png)
+![image](https://user-images.githubusercontent.com/29537875/195337734-82537f2d-ecce-4e38-be97-4ae07039f647.png)
 
 
 ## Resources

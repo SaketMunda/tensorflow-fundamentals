@@ -1,6 +1,8 @@
 # TensorFlow Fundamentals
 
-What is TensorFlow and it's fundamentals
+This repository will help you to grow basic knowledge about [Google's TensorFlow](https://www.tensorflow.org/).
+
+## What is TensorFlow and it's fundamentals
 
 > What
 

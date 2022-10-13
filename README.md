@@ -31,7 +31,7 @@ Rather than building machine learning models from scratch and train which requir
 
 ![image](https://user-images.githubusercontent.com/29537875/195337734-82537f2d-ecce-4e38-be97-4ae07039f647.png)
 
-### Other Fundamental Topics regarding Tensors
+## Other Fundamental Topics regarding Tensors
 
 [Inside the Notebook](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
 

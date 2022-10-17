@@ -67,6 +67,8 @@ Rather than building machine learning models from scratch and train which requir
 
 ### Notebook/Practicals
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb)
+
 ### Exercises
 
 ## 02. Neural Network Classification with TensorFlow

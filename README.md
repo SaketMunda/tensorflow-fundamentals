@@ -12,15 +12,6 @@ TensorFlow is an open source end-to-end machine learning library for preprocessi
 
 Rather than building machine learning models from scratch and train which requires huge computation power, separate GPUs/TPUs, it's more likely you'll use a library such as TensorFlow. It contains many of the most common machine learning functions you'll want to use.
 
-> Topics covered in this repository
-
-* Introduction to tensors (How to create tensors)
-* Getting information from tensors (tensor attributes/properties)
-* Manipulating tensors (tensor operations)
-* Using @tf.function (a way to speed up your regular Python functions)
-* Using GPUs with TensorFlow
-* Exercises to Try
-
 > What is TPU & GPU ?
 
 **TPU**, Tensor Processing Unit is an AI accelerator application-specific integrated circuit developed by Google for neural network machine learning, using Google's own TensorFlow software.
@@ -31,11 +22,24 @@ Rather than building machine learning models from scratch and train which requir
 
 ![image](https://user-images.githubusercontent.com/29537875/195337734-82537f2d-ecce-4e38-be97-4ae07039f647.png)
 
-## Fundamentals of Tensors with Examples
+## Topics covered in this repository
 
-[Inside the Notebook](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
+### 00. [Fundamentals of TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
 
-## TensorFlow Fundamentals Exercies
+#### Highlights of the Section
+
+* Introduction to tensors (How to create tensors)
+* Getting information from tensors (tensor attributes/properties)
+* Manipulating tensors (tensor operations)
+* Using @tf.function (a way to speed up your regular Python functions)
+* Using GPUs with TensorFlow
+* Exercises to Try
+
+#### Notebook/Practicals
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
+
+#### Exercies
 
 1. Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
 2. Find the shape, rank and size of the tensors you created in 1.
@@ -48,7 +52,7 @@ Rather than building machine learning models from scratch and train which requir
 9. Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
 10. One-hot encode the tensor you created in 9.
 
-## TensorFlow Fundamentals Extra-Curriculam
+#### Extra-Curriculam
 
 * Read through the list of [TensorFlow Python APIs](https://www.tensorflow.org/api_docs/python/), pick one we haven't gone through in this notebook, reverse engineer it (write out the documentation code for yourself) and figure out what it does.
 * Try to create a series of tensor functions to calculate your most recent grocery bill (it's okay if you don't use the names of the items, just the price in numerical form).
@@ -56,6 +60,18 @@ Rather than building machine learning models from scratch and train which requir
 * Go through the [TensorFlow 2.x quick start for beginners](https://www.tensorflow.org/tutorials/quickstart/beginner) tutorial (be sure to type out all of the code yourself, even if you don't understand it).
   - Are there any functions we used in here that match what's used in there? Which are the same? Which haven't you seen before?
 * Watch the video ["What's a tensor?"](https://www.youtube.com/watch?v=f5liqUk0ZTw) - a great visual introduction to many of the concepts we've covered in this notebook.
+
+### 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
+
+#### Highlights of this section
+
+#### Notebook/Practicals
+
+#### Exercises
+
+### 02. Neural Network Classification with TensorFlow
+
+*To do*
 
 ## Resources
 

@@ -63,7 +63,34 @@ Rather than building machine learning models from scratch and train which requir
 
 ## 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
 
+> What
+There are many definition for a regression problem but in our case, we're going to simplify it to be: predicting a number.
+
+For example,
+* Predicting the selling price of houses given information about them (such as number of rooms, size, number of bathrooms)
+* Predict the coordinates of a bounding box of an item in an image in an Object Detection problem
+* Predict the cost of medical insurance for an individual given their demographics(age, sex, gender, race)
+
 ### Highlights of this section
+
+* Architecture of a regression model
+* Input shapes and Output shapes
+  - `X`: features/data(inputs)
+  - `y`: labels(outputs)
+* Creating custom data to view and fit
+* Steps in modelling
+  - Creating a model
+  - Compiling a model
+    - Definining a loss function
+    - Setting up an optimizer
+    - Creating evaluation metrics
+  - Fitting a model (getting it to find patterns in our data)
+* Evaluating a model
+  - Visualising the model ("visualise, visualise, visualise")
+  - Looking at training curves
+  - Compare predictions to ground truth (using our evaluation metrics)
+* Saving a model
+* Loading a model
 
 ### Notebook/Practicals
 

@@ -64,6 +64,7 @@ Rather than building machine learning models from scratch and train which requir
 ## 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
 
 > What
+
 There are many definition for a regression problem but in our case, we're going to simplify it to be: predicting a number.
 
 For example,

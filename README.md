@@ -2,7 +2,7 @@
 
 This repository will help you to grow basic knowledge about [Google's TensorFlow](https://www.tensorflow.org/).
 
-## What is TensorFlow and it's fundamentals
+# What is TensorFlow and it's fundamentals
 
 > What
 
@@ -22,11 +22,11 @@ Rather than building machine learning models from scratch and train which requir
 
 ![image](https://user-images.githubusercontent.com/29537875/195337734-82537f2d-ecce-4e38-be97-4ae07039f647.png)
 
-## Topics covered in this repository
+# Topics covered in this repository
 
-### 00. [Fundamentals of TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
+## 00. [Fundamentals of TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
 
-#### Highlights of the Section
+### Highlights of the Section
 
 * Introduction to tensors (How to create tensors)
 * Getting information from tensors (tensor attributes/properties)
@@ -35,11 +35,11 @@ Rather than building machine learning models from scratch and train which requir
 * Using GPUs with TensorFlow
 * Exercises to Try
 
-#### Notebook/Practicals
+### Notebook/Practicals
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/tensorflow-fundamentals/blob/master/00_tensorflow_fundamentals.ipynb)
 
-#### Exercies
+### Exercises
 
 1. Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
 2. Find the shape, rank and size of the tensors you created in 1.
@@ -52,7 +52,7 @@ Rather than building machine learning models from scratch and train which requir
 9. Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
 10. One-hot encode the tensor you created in 9.
 
-#### Extra-Curriculam
+### Extra-Curriculam
 
 * Read through the list of [TensorFlow Python APIs](https://www.tensorflow.org/api_docs/python/), pick one we haven't gone through in this notebook, reverse engineer it (write out the documentation code for yourself) and figure out what it does.
 * Try to create a series of tensor functions to calculate your most recent grocery bill (it's okay if you don't use the names of the items, just the price in numerical form).
@@ -61,19 +61,19 @@ Rather than building machine learning models from scratch and train which requir
   - Are there any functions we used in here that match what's used in there? Which are the same? Which haven't you seen before?
 * Watch the video ["What's a tensor?"](https://www.youtube.com/watch?v=f5liqUk0ZTw) - a great visual introduction to many of the concepts we've covered in this notebook.
 
-### 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
+## 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
 
-#### Highlights of this section
+### Highlights of this section
 
-#### Notebook/Practicals
+### Notebook/Practicals
 
-#### Exercises
+### Exercises
 
-### 02. Neural Network Classification with TensorFlow
+## 02. Neural Network Classification with TensorFlow
 
 *To do*
 
-## Resources
+# Resources
 
 * [TensorFlow Deep Learning by Daniel Bourke](https://dev.mrdbourke.com/tensorflow-deep-learning)
 

@@ -99,6 +99,22 @@ For example,
 
 ### Exercises
 
+1. Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
+2. Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
+3. Try and improve the results we got on the insurance dataset, some things you might want to try include:
+  * Building a larger model (how does one with 4 dense layers go?).
+  * Increasing the number of units in each layer.
+  * Lookup the documentation of [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) and find out what the first parameter is, what happens if you increase it by 10x?
+  * What happens if you train for longer (say 300 epochs instead of 200)?
+4. Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [tf.keras.datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
+
+### Extra-curriculum
+
+* [MIT introduction deep learning lecture 1](https://www.youtube.com/watch?v=7sB052Pz0sQ&ab_channel=AlexanderAmini) - gives a great overview of what's happening behind all of the code we're running.
+* Reading: 1-hour of [Chapter 1 of Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html) by Michael Nielson - a great in-depth and hands-on example of the intuition behind neural networks.
+* To practice your regression modelling with TensorFlow, I'd also encourage you to look through [Lion Bridge's collection of datasets](https://lionbridge.ai/datasets/) or [Kaggle's datasets](https://www.kaggle.com/data), find a regression dataset which sparks your interest and try to model.
+
+
 ## 02. Neural Network Classification with TensorFlow
 
 *To do*

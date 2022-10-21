@@ -115,7 +115,7 @@ For example,
 - [ ] To practice your regression modelling with TensorFlow, I'd also encourage you to look through [Lion Bridge's collection of datasets](https://lionbridge.ai/datasets/) or [Kaggle's datasets](https://www.kaggle.com/data), find a regression dataset which sparks your interest and try to model.
 
 
-## 02. Neural Network Classification with TensorFlow
+## 02. [Neural Network Classification with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/02_neural_network_classfication_with_tensorflow.ipynb)
 
 > What 
 
@@ -149,6 +149,9 @@ For example, you might want to:
 * Saving a model
 * Loading a model
 
+### Notebook/Practicals
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/tensorflow-fundamentals/blob/master/02_neural_network_classfication_with_tensorflow.ipynb)
 
 
 # Resources

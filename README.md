@@ -41,25 +41,25 @@ Rather than building machine learning models from scratch and train which requir
 
 ### Exercises
 
-1. Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
-2. Find the shape, rank and size of the tensors you created in 1.
-3. Create two tensors containing random values between 0 and 1 with shape [5, 300].
-4. Multiply the two tensors you created in 3 using matrix multiplication.
-5. Multiply the two tensors you created in 3 using dot product.
-6. Create a tensor with random values between 0 and 1 with shape [224, 224, 3].
-7. Find the min and max values of the tensor you created in 6 along the first axis.
-8. Created a tensor with random values of shape [1, 224, 224, 3] then squeeze it to change the shape to [224, 224, 3].
-9. Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
-10. One-hot encode the tensor you created in 9.
+- [x] Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
+- [x] Find the shape, rank and size of the tensors you created in 1.
+- [x] Create two tensors containing random values between 0 and 1 with shape [5, 300].
+- [x] Multiply the two tensors you created in 3 using matrix multiplication.
+- [x] Multiply the two tensors you created in 3 using dot product.
+- [x] Create a tensor with random values between 0 and 1 with shape [224, 224, 3].
+- [x] Find the min and max values of the tensor you created in 6 along the first axis.
+- [x] Created a tensor with random values of shape [1, 224, 224, 3] then squeeze it to change the shape to [224, 224, 3].
+- [x] Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
+- [x] One-hot encode the tensor you created in 9.
 
 ### Extra-Curriculam
 
-* Read through the list of [TensorFlow Python APIs](https://www.tensorflow.org/api_docs/python/), pick one we haven't gone through in this notebook, reverse engineer it (write out the documentation code for yourself) and figure out what it does.
-* Try to create a series of tensor functions to calculate your most recent grocery bill (it's okay if you don't use the names of the items, just the price in numerical form).
+- [x] Read through the list of [TensorFlow Python APIs](https://www.tensorflow.org/api_docs/python/), pick one we haven't gone through in this notebook, reverse engineer it (write out the documentation code for yourself) and figure out what it does.
+- [x] Try to create a series of tensor functions to calculate your most recent grocery bill (it's okay if you don't use the names of the items, just the price in numerical form).
   - How would you calculate your grocery bill for the month and for the year using tensors?
-* Go through the [TensorFlow 2.x quick start for beginners](https://www.tensorflow.org/tutorials/quickstart/beginner) tutorial (be sure to type out all of the code yourself, even if you don't understand it).
+- [x] Go through the [TensorFlow 2.x quick start for beginners](https://www.tensorflow.org/tutorials/quickstart/beginner) tutorial (be sure to type out all of the code yourself, even if you don't understand it).
   - Are there any functions we used in here that match what's used in there? Which are the same? Which haven't you seen before?
-* Watch the video ["What's a tensor?"](https://www.youtube.com/watch?v=f5liqUk0ZTw) - a great visual introduction to many of the concepts we've covered in this notebook.
+- [x] Watch the video ["What's a tensor?"](https://www.youtube.com/watch?v=f5liqUk0ZTw) - a great visual introduction to many of the concepts we've covered in this notebook.
 
 ## 01. [Neural Network Regression with TensorFlow](https://github.com/SaketMunda/tensorflow-fundamentals/blob/master/01_neural_network_regression_in_tensorflow.ipynb) 
 
@@ -99,25 +99,57 @@ For example,
 
 ### Exercises
 
-1. Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
-2. Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
-3. Try and improve the results we got on the insurance dataset, some things you might want to try include:
+- [x] Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
+- [x] Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
+- [x] Try and improve the results we got on the insurance dataset, some things you might want to try include:
   * Building a larger model (how does one with 4 dense layers go?).
   * Increasing the number of units in each layer.
   * Lookup the documentation of [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) and find out what the first parameter is, what happens if you increase it by 10x?
   * What happens if you train for longer (say 300 epochs instead of 200)?
-4. Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [tf.keras.datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
+- [x] Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [tf.keras.datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
 
 ### Extra-curriculum
 
-* [MIT introduction deep learning lecture 1](https://www.youtube.com/watch?v=7sB052Pz0sQ&ab_channel=AlexanderAmini) - gives a great overview of what's happening behind all of the code we're running.
-* Reading: 1-hour of [Chapter 1 of Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html) by Michael Nielson - a great in-depth and hands-on example of the intuition behind neural networks.
-* To practice your regression modelling with TensorFlow, I'd also encourage you to look through [Lion Bridge's collection of datasets](https://lionbridge.ai/datasets/) or [Kaggle's datasets](https://www.kaggle.com/data), find a regression dataset which sparks your interest and try to model.
+- [x] [MIT introduction deep learning lecture 1](https://www.youtube.com/watch?v=7sB052Pz0sQ&ab_channel=AlexanderAmini) - gives a great overview of what's happening behind all of the code we're running.
+- [x] Reading: 1-hour of [Chapter 1 of Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap1.html) by Michael Nielson - a great in-depth and hands-on example of the intuition behind neural networks.
+- [x] To practice your regression modelling with TensorFlow, I'd also encourage you to look through [Lion Bridge's collection of datasets](https://lionbridge.ai/datasets/) or [Kaggle's datasets](https://www.kaggle.com/data), find a regression dataset which sparks your interest and try to model.
 
 
 ## 02. Neural Network Classification with TensorFlow
 
-*To do*
+> What 
+
+A classification problem involves predicting whether something is one thing or another.
+
+For example, you might want to:
+* Predict whether or not someone has a heart disease based on their health parameters. This is called a **Binary classification**, since there are only two options.
+* Predict whether a photo is of a food, a person or a dog. This is called **Multi-class classification** since there are more than two options.
+* Predict what categories should be assigned to a wikipedia article. This is called **Multi-label classification** since a single article could have more than one category assigned.
+
+### Highlights of this section
+
+* Architecture of a classification model
+* Input shapes and Output shapes
+  - `X`: features/data(inputs)
+  - `y`: labels(outputs)
+* Creating custom data to view and fit
+* Steps in modelling for binary and multi-class classification
+  - Creating a model
+  - Compiling a model
+    - Definining a loss function
+    - Setting up an optimizer
+    - Creating evaluation metrics
+  - Fitting a model (getting it to find patterns in our data)
+  - Improving a model
+* The power of non-linearity
+* Evaluating a classification model
+  - Visualising the model ("visualise, visualise, visualise")
+  - Looking at training curves
+  - Compare predictions to ground truth (using our evaluation metrics)
+* Saving a model
+* Loading a model
+
+
 
 # Resources
 

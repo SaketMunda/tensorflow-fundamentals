@@ -41,16 +41,16 @@ Rather than building machine learning models from scratch and train which requir
 
 ### Exercises
 
-- [ ] Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
-- [ ] Find the shape, rank and size of the tensors you created in 1.
-- [ ] Create two tensors containing random values between 0 and 1 with shape [5, 300].
-- [ ] Multiply the two tensors you created in 3 using matrix multiplication.
-- [ ] Multiply the two tensors you created in 3 using dot product.
-- [ ] Create a tensor with random values between 0 and 1 with shape [224, 224, 3].
-- [ ] Find the min and max values of the tensor you created in 6 along the first axis.
-- [ ] Created a tensor with random values of shape [1, 224, 224, 3] then squeeze it to change the shape to [224, 224, 3].
-- [ ] Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
-- [ ] One-hot encode the tensor you created in 9.
+- [x] Create a vector, scalar, matrix and tensor with values of your choosing using tf.constant().
+- [x] Find the shape, rank and size of the tensors you created in 1.
+- [x] Create two tensors containing random values between 0 and 1 with shape [5, 300].
+- [x] Multiply the two tensors you created in 3 using matrix multiplication.
+- [x] Multiply the two tensors you created in 3 using dot product.
+- [x] Create a tensor with random values between 0 and 1 with shape [224, 224, 3].
+- [x] Find the min and max values of the tensor you created in 6 along the first axis.
+- [x] Created a tensor with random values of shape [1, 224, 224, 3] then squeeze it to change the shape to [224, 224, 3].
+- [x] Create a tensor with shape [10] using your own choice of values, then find the index which has the maximum value.
+- [x] One-hot encode the tensor you created in 9.
 
 ### Extra-Curriculam
 

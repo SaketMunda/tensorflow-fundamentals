@@ -99,14 +99,14 @@ For example,
 
 ### Exercises
 
-- [ ] Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
-- [ ] Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
-- [ ] Try and improve the results we got on the insurance dataset, some things you might want to try include:
+- [x] Create your own regression dataset (or make the one we created in "Create data to view and fit" bigger) and build fit a model to it.
+- [x] Try building a neural network with 4 Dense layers and fitting it to your own regression dataset, how does it perform?
+- [x] Try and improve the results we got on the insurance dataset, some things you might want to try include:
   * Building a larger model (how does one with 4 dense layers go?).
   * Increasing the number of units in each layer.
   * Lookup the documentation of [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) and find out what the first parameter is, what happens if you increase it by 10x?
   * What happens if you train for longer (say 300 epochs instead of 200)?
-- [ ] Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [tf.keras.datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
+- [x] Import the [Boston pricing dataset](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/boston_housing/load_data) from TensorFlow [tf.keras.datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets) and model it.
 
 ### Extra-curriculum
 
